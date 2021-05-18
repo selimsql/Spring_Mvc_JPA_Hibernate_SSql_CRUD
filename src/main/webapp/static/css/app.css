@@ -1,0 +1,55 @@
+body {
+    font-size: 11pt;
+	height: 100%;
+	background-color:rgb(245, 245, 245);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+
+tr:nth-child(even) {background-color: #e8e8e8}
+
+th {
+    background-color: #eeeeff;
+    color: navy;
+    font-weight: bold;
+}
+
+a {
+    background-color: #21a6e3;
+    color: white;
+	padding: 4px;
+}
+
+a:hover
+{
+    background-color: #009688;
+	color: yellow;
+}
+
+
+.has-error {
+	color:red;
+}
+
+.generic-container {
+  position:fixed;
+  width:80%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #FAF7F7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 20px gray;
+}
+
+.container {
+    background-color: floralwhite;
+}
